@@ -42,3 +42,10 @@ body {
     color: var(--primary-yellow);
     font-family: 'Press Start 2P', cursive;
 }
+
+/* MAIN */
+
+.main {
+    margin-top: 40px;
+    text-align: center;
+}
