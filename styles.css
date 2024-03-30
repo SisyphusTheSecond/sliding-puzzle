@@ -36,3 +36,9 @@ body {
     padding: 40px 0px;
     background-color: var(--header);
 }
+
+.title {
+    font-size: 32px;
+    color: var(--primary-yellow);
+    font-family: 'Press Start 2P', cursive;
+}
