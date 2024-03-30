@@ -7,3 +7,25 @@
     --header: #111720;
     --primary-yellow: #fac650;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 100px;
+}
+
