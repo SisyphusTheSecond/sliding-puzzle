@@ -119,3 +119,12 @@ body {
     transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
 }
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-title {
+    font-size: 40px;
+    font-weight: bold;
+}
