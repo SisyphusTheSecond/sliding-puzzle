@@ -1,8 +1,8 @@
 # sliding-puzzle
 
-Game Project of a simple sliding game using only HTML, CSS and Vanilla JS.
+Game Project of a simple sliding puzzle game using only HTML, CSS and Vanilla JS.
 
-🔗 **Live preview:** [here](https://SisyphusTheSecond.github.io/sliding-game/)
+🔗 **Live preview:** [here](https://SisyphusTheSecond.github.io/sliding-puzzle/)
 
 ## Built with
 
@@ -40,7 +40,9 @@ Git and Github
 * Cleaner code.
 * My commit messages are still not perfect.
 
-## Authors
+## Author
 
-**Yacine Allal** / **Oussama Safar Zitoun**
+**Yacine Allal**  
+**Oussama Safar Zitoun**
+
 * Github: [Yacine_Allal](https://github.com/SisyphusTheSecond).
