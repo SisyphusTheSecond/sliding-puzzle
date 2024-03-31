@@ -40,9 +40,9 @@ Git and Github
 * Cleaner code.
 * My commit messages are still not perfect.
 
-## Author
+## Authors
 
-**Yacine Allal**  
-**Oussama Safar Zitoun**
+👤 **Oussama Safar Zitoun**
+👤 **Yacine Allal**  
 
 * Github: [Yacine_Allal](https://github.com/SisyphusTheSecond).
