@@ -164,59 +164,46 @@ body {
     display: block;
 }
 
-/* MEDIA QUERIES
-
+/* MEDIA QUERIES */
 @media (max-width: 550px) {
     .title {
-      font-size: 18px;
+        font-size: 18px; /* Decrease font size for the title */
     }
-  
-    .score-info {
-      font-size: 26px;
-    }
-  
-    .buttons {
-      gap: 10px;
-    }
-  
-    .btn-square {
-      width: 100px;
-      height: 100px;
-    }
-  
-    .sign {
-      font-size: 50px;
-    }
-  
-    .modal {
-      width: 95%;
-    }
-} */
 
-@media (max-width: 550px) {
-    .title {
-        font-size: 16px; /* Decrease font size for the title */
+    #tiles {
+        width: 300px; /* Adjust grid width for smaller screens */
+        margin: 0 auto; /* Center the grid horizontally */
+        margin-top: 30px; /* Adjust margin top */
     }
-  
-    .score-info {
-        font-size: 20px; /* Decrease font size for score info */
+
+    .btn {
+        font-size: 16px; /* Decrease font size for buttons */
+        height: 60px; /* Decrease button height */
+        width: 20%; /* Adjust button width */
+        padding: 10px; /* Adjust button padding */
+        margin: 5px; /* Adjust button margin */
     }
-  
-    .buttons {
-        gap: 5px; /* Reduce gap between buttons */
+
+    .selected {
+        font-size: 14px; /* Decrease font size for selected button */
+        height: 50px; /* Decrease height of selected button */
+        width: 18%; /* Adjust width of selected button */
     }
-  
-    .btn-square {
-        width: 80px; /* Decrease button width */
-        height: 80px; /* Decrease button height */
-        font-size: 14px; /* Decrease font size for buttons */
-    }
-  
-    .sign {
-        font-size: 40px; /* Decrease font size for signs */
-    }
-  
+
     .modal {
         width: 90%; /* Reduce modal width */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .modal-title {
+        font-size: 24px; /* Decrease font size for modal title */
+    }
+
+    .btn-restart {
+        font-size: 20px; /* Decrease font size for restart button */
+        width: 150px; /* Adjust button width */
+        padding: 8px; /* Adjust button padding */
+        margin-top: 20px; /* Adjust margin top */
+        margin-bottom: 10px; /* Adjust margin bottom */
     }
 }
