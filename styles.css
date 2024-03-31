@@ -114,7 +114,8 @@ body {
     border-radius: 10px;
     background-color: var(--primary-dark);
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: bold;
     user-select: none;
     transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
@@ -125,17 +126,19 @@ body {
 }
 
 .btn-restart {
-    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-light);
+    background-color: var(--secondary-dark);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
     margin-top: 25px;
     margin-bottom: 15px;
-    border: none;
-    color: var(--primary-light);
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    cursor: pointer;
-    outline: none;
-    background-color: var(--primary-yellow);
-    border-radius: 5px;
 }
 
 .btn-restart:hover {
