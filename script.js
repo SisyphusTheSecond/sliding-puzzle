@@ -93,26 +93,23 @@ function swap(clicked) {
         return;
     }
 
-    // Load new tiles and shuffle
-    // Check if we are trying to swap right
     if (clicked == highlighted + 1) {
         if (clicked % size != 1) {
             setSelected(clicked);
         }
-        // Check if we are trying to swap left
+
     } else if (clicked == highlighted - 1) {
         if (clicked % size != 0) {
             setSelected(clicked);
         }
-        // Check if we are trying to swap up
+
     } else if (clicked == highlighted + size) {
         setSelected(clicked);
-        // Check if we are trying to swap down
+
     } else if (clicked == highlighted - size) {
         setSelected(clicked);
     }
 
-    // Check for winning only after the swap
     if (shuffled && checkHasWon()) {
         openEndgameModal();
         setFinalMessage()
