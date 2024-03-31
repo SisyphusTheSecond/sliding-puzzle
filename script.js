@@ -130,12 +130,13 @@ function closeEndgameModal() {
 }
 
 function setFinalMessage() {
-    endgameModal.textContent = 'You won!';
+    endgameMsg.textContent = 'You won!';
 }
 
 function restartGame() {
     highlighted = numberOfTiles;
     shuffled = false;
+    buttonContainer.innerHTML = '';
     endgameModal.classList.remove('active')
     overlay.classList.remove('active')
     newGame();
