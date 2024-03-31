@@ -164,7 +164,7 @@ body {
     display: block;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES
 
 @media (max-width: 550px) {
     .title {
@@ -190,5 +190,33 @@ body {
   
     .modal {
       width: 95%;
+    }
+} */
+
+@media (max-width: 550px) {
+    .title {
+        font-size: 16px; /* Decrease font size for the title */
+    }
+  
+    .score-info {
+        font-size: 20px; /* Decrease font size for score info */
+    }
+  
+    .buttons {
+        gap: 5px; /* Reduce gap between buttons */
+    }
+  
+    .btn-square {
+        width: 80px; /* Decrease button width */
+        height: 80px; /* Decrease button height */
+        font-size: 14px; /* Decrease font size for buttons */
+    }
+  
+    .sign {
+        font-size: 40px; /* Decrease font size for signs */
+    }
+  
+    .modal {
+        width: 90%; /* Reduce modal width */
     }
 }
