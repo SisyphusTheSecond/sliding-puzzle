@@ -104,7 +104,7 @@ body {
 
 /* MODALS */
 
-.modals {
+.modal {
     position: fixed;
     z-index: 1;
     top: 50%;
@@ -124,15 +124,26 @@ body {
     transform: translate(-50%, -50%) scale(1);
 }
 
-.modal-title {
-    font-size: 40px;
-    font-weight: bold;
-}
-
 .btn-restart {
     padding: 10px 20px;
     margin-top: 25px;
     margin-bottom: 15px;
+    border: none;
+    color: var(--primary-light);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    background-color: var(--primary-yellow);
+    border-radius: 5px;
+}
+
+.btn-restart:hover {
+    background-color: var(--secondary-dark-hover);
+}
+
+.btn-restart:active {
+    background-color: var(--secondary-dark-active);
 }
 
 .overlay {
@@ -177,4 +188,4 @@ body {
     .modal {
       width: 95%;
     }
-  }
+}
