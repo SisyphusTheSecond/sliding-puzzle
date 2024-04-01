@@ -76,6 +76,26 @@ body {
     color: var(--primary-dark);
 }
 
+#restartButton {
+    padding: 10px 20px;
+    background-color: var(--primary-yellow); /* Green */
+    color: var(--primary-dark);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    margin: 5px auto; 
+}
+
+#restartButton:hover {
+    background-color: #45a049;
+}
+
+#restartButton:active {
+    background-color: #45a049;
+}
+
 /* FOOTER */
 
 .footer {
@@ -127,8 +147,8 @@ body {
 
 .btn-restart {
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-light);
-    background-color: var(--secondary-dark);
+    color: var(--primary-dark);
+    background-color: var(--primary-yellow);
     outline: none;
     cursor: pointer;
     border: none;
@@ -142,11 +162,11 @@ body {
 }
 
 .btn-restart:hover {
-    background-color: var(--secondary-dark-hover);
+    background-color: #45a049
 }
 
 .btn-restart:active {
-    background-color: var(--secondary-dark-active);
+    background-color: #45a049
 }
 
 .overlay {

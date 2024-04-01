@@ -138,3 +138,13 @@ function restartGame() {
     overlay.classList.remove('active')
     newGame();
 }
+
+function resetGame() {
+    setTimeout(() => {
+        shuffle();
+    }, 500);    
+}
+
+document.getElementById("restartButton").addEventListener("click", function() {
+    resetGame();
+}); 
